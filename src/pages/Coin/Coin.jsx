@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import "./Coin.css"
 import { useParams } from 'react-router-dom'
 import { CoinContext } from '../../Context/CoinContext'
-import LineChart from '../../components/LineChart/LineChart'
+import LineChart from '../../Components/LineChart/LineChart'
 
 
 const Coin = () => {
@@ -17,7 +17,7 @@ const Coin = () => {
       method: 'GET',
       headers: {
         accept: 'application/json',
-        'x-cg-demo-api-key': '	CG-ftn8r8Vk5dGYy2LPnT9sX9TM'
+        'x-cg-demo-api-key': '	CG-Qc4ZLo5wtr8hB2QNRK8WMVDE'
       }
     };
 
@@ -32,7 +32,7 @@ const Coin = () => {
       method: 'GET',
       headers: {
         accept: 'application/json',
-        'x-cg-demo-api-key': 'CG-Qc4ZLo5wtr8hB2QNRK8WMVDE'
+        'x-cg-demo-api-key': '	CG-Qc4ZLo5wtr8hB2QNRK8WMVDE'
       }
     };
 
